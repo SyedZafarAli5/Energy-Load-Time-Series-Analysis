@@ -1,0 +1,40 @@
+# Time Series Analysis — Conclusions by Region
+
+### PJME
+
+**Assignment 1:** PJME: The series shows a clear repeating annual pattern with
+load peaking around month 7 and dipping around month 4, consistent with seasonal 
+heating/cooling demand. The 12-month moving average smooths short-term fluctuations 
+and reveals the longer-term trend. Overall variation across years appears stable
+relative to the mean load level.
+
+**Task 2:** PJME: ADF statistic (raw) = -8.653, p-value = 0.0000 (stationary). 
+After first-differencing, ADF statistic = -24.909, p-value = 0.0000 (stationary).
+Differencing removes trend/level dependence, making the series more suitable for
+classical forecasting models that assume stationarity.
+
+### PJMW
+
+**Assignment 1:** PJMW: The series shows a clear repeating annual pattern with
+load peaking around month 1 and dipping around month 10, consistent with seasonal 
+heating/cooling demand. The 12-month moving average smooths short-term fluctuations 
+and reveals the longer-term trend. Overall variation across years appears stable
+relative to the mean load level.
+
+**Task 2:** PJMW: ADF statistic (raw) = -9.811, p-value = 0.0000 (stationary).
+After first-differencing, ADF statistic = -23.497, p-value = 0.0000 (stationary).
+Differencing removes trend/level dependence, making the series more suitable for
+classical forecasting models that assume stationarity.
+
+### PJM_Load
+
+**Assignment 1:** PJM_Load: The series shows a clear repeating annual pattern
+with load peaking around month 8 and dipping around month 4, consistent with 
+seasonal heating/cooling demand. The 12-month moving average smooths short-term 
+fluctuations and reveals the longer-term trend. Overall variation across years 
+appears stable relative to the mean load level.
+
+**Task 2:** PJM_Load: ADF statistic (raw) = -11.551, p-value = 0.0000 (stationary).
+After first-differencing, ADF statistic = -24.858, p-value = 0.0000 (stationary).
+Differencing removes trend/level dependence, making the series more suitable for
+classical forecasting models that assume stationarity.
